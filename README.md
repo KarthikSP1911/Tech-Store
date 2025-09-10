@@ -5,6 +5,9 @@
 A full-stack shopping cart application built with the MERN stack (MongoDB, Express, React, Node.js). This project features user authentication, product browsing, cart management, and secure token handling—all wrapped in a responsive, animated UI.
 
 ---
+<video src="demoVideo.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
 
 ## 📦 Tech Stack
 
