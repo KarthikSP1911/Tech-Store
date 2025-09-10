@@ -143,31 +143,7 @@ npm run dev
 | GET    | `/seed-products`     | Seed initial product data       |
 | GET    | `/`                  | Fetch all products              |
 
----
-
-
-> These routes are useful for testing without full auth flow.
 
 ---
 
-## 🖼 Sample Products
-
-- Wireless Mouse
-- Bluetooth Headphones
-- Laptop Backpack
-- Mechanical Keyboard
-
-Each product includes name, price, description, image, category, and stock.
-
----
-
-## 🧠 Future Enhancements
-
-- Order history and checkout flow
-- Role-based access (admin vs user)
-- Product filtering and search
-- Payment gateway integration
-- Semantic theming and dark mode toggle
-
----
 
