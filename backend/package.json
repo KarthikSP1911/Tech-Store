@@ -1,0 +1,48 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "MERN Backend Server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "_comment": "  'start': 'NODE_ENV=production node server.js'",
+    "start": " cls && node src/server.js",
+    "dev": "cls && nodemon src/server.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest --detectOpenHandles --forceExit",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "mern",
+    "backend",
+    "express",
+    "mongodb",
+    "api"
+  ],
+  "author": "Karthik",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "eslint": "^8.35.0",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.4"
+  }
+}
